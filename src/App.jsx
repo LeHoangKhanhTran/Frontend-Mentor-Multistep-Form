@@ -47,7 +47,7 @@ const formData = {
 }
 
 function App() {
-  const [step, dispatch] = useReducer(reducer, 3);
+  const [step, dispatch] = useReducer(reducer, 1);
   const [isFinished, setIsFinished] = useState(false);
   const [data, setData] = useState(formData);
 
