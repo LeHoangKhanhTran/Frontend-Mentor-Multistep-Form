@@ -45,7 +45,7 @@ export const Item = styled.div`
     }
 
     input[type="checkbox"]:checked::after{
-        background-image: url(${CheckMark}) !important; 
+        background-image: url('/Frontend-Mentor-Multistep-Form/src/assets/images/icon-checkmark.svg'); 
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: center;
