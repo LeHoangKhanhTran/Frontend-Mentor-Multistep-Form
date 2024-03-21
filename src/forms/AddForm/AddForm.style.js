@@ -45,7 +45,7 @@ export const Item = styled.div`
     }
 
     input[type="checkbox"]:checked::after{
-        background-image: url();
+        background-image: url(${CheckMark});
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: center;
