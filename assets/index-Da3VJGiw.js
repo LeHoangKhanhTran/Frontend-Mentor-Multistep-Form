@@ -586,7 +586,7 @@ Error generating stack: `+l.message+`
     }
 
     input[type="checkbox"]:checked::after{
-        background-image: url(${um});
+        background-image: url("/Frontend-Mentor-Multistep-Form/src/assets/images/icon-checkmark.svg");
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: center;
